@@ -1,5 +1,5 @@
 within BestInClass.DetailedZoning;
-model BICBase_Sacra_SATReset_OAT
+model BICBase_Sacra_Measure1_SATReset_OAT
   extends Modelica.Icons.Example;
   extends BaseClasses.PartialOpenLoop(par(
       idfFile=
@@ -8,9 +8,9 @@ model BICBase_Sacra_SATReset_OAT
           "modelica://BestInClass/Resources/weather/USA_CA_Sacramento.Metro.AP.724839_TMY3.mos",
       minAirFra=0.3,
       TOutHigh=297.15,
-      m_flow_zone=1.2*{0.0553358,0.040528,0.040357,0.022085,0.43118,0.398818,
-          0.222669,0.222802,0.066113,1.07,0.986517,0.14797,0.149323,0.07028,
-          0.493998,0.53816,0.59377,0.819185,0.097882,0.047462,0.045102},
+      m_flow_zone=1.2*{0.058093,0.051786,0.05138,0.029099,0.437438,0.408337,
+          0.299423,0.297499,0.080845,1.09,1,0.178495,0.173994,0.084635,0.650558,
+          0.70973,0.700693,0.836196,0.11866,0.060594,0.057511},
       m_flow_sys=1.2*6.35),
       occupancy(occupancy=3600*{5.01667,21.01667},
       period(displayUnit="s") = 86400),
@@ -49,7 +49,8 @@ model BICBase_Sacra_SATReset_OAT
       TSup(
         transferHeat=true,
         TAmb=296.6,
-        tauHeaTra=10)),
+        tauHeaTra=10),
+      TSetCoo(TCooOff=273.15 + 23.43)),
     internalGains(
       kLig=0,
       kEqu=0,
@@ -152,12 +153,12 @@ equation
         Line(points={{-142,48}}, color={28,108,200})}),
     experiment(
       StartTime=16329600,
-      StopTime=16761600,
+      StopTime=17539200,
       Interval=599.999616,
       __Dymola_Algorithm="Cvode"),
     __Dymola_Commands(file=
-          "modelica://BestInClass/Resources/Script/DetailedZoning/SAC_Summer.mos"
-        "SAC_Summer", file=
+          "modelica://BestInClass/Resources/Script/DetailedZoning/SAC_Summer_Measure1.mos"
+        "SAC_Summer_Measure1", file=
           "modelica://BestInClass/Resources/Script/DetailedZoning/SAC_Winter.mos"
         "SAC_Winter"));
-end BICBase_Sacra_SATReset_OAT;
+end BICBase_Sacra_Measure1_SATReset_OAT;
