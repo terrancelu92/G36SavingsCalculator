@@ -38,7 +38,7 @@ model BICBase_Sacra
     zoneVAV20(zon(T_start=24.8+273.15)),
     zoneVAV21(zon(T_start=24.49+273.15))),
     AHU(TSupSetHea(k=273.15 + 10),
-    conEco(VOut_flow_min=0.7293),
+    conEco(VOut_flow_min=0.7293, useEco=false),
       TRet(
         T_start=300.18,
         transferHeat=true,

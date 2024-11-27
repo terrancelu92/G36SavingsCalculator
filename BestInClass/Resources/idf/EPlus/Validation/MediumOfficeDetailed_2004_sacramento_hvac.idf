@@ -67,7 +67,7 @@ HeatBalanceAlgorithm,
 !-   ===========  ALL OBJECTS IN CLASS: TIMESTEP ===========
 
 Timestep,
-    60;                       !- Number of Timesteps per Hour
+    60;                      !- Number of Timesteps per Hour
 
 
 !-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
@@ -1717,91 +1717,91 @@ Schedule:Day:Interval,
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     12:00,                   !- Time 1 {hh:mm}
-    30,                    !- Value Until Time 1
+    30,                      !- Value Until Time 1
     13:00,                   !- Time 2 {hh:mm}
-    30,        !- Value Until Time 2
+    30,                      !- Value Until Time 2
     24:00,                   !- Time 3 {hh:mm}
-    30;                    !- Value Until Time 3
+    30;                      !- Value Until Time 3
 
 Schedule:Day:Interval,
     OfficeMedium CLGSETP_SCH_YES_OPTIMUM Wkdy Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     05:00,                   !- Time 1 {hh:mm}
-    30,                    !- Value Until Time 1
+    30,                      !- Value Until Time 1
     06:00,                   !- Time 2 {hh:mm}
-    30,                    !- Value Until Time 2
+    30,                      !- Value Until Time 2
     07:00,                   !- Time 3 {hh:mm}
     24,                      !- Value Until Time 3
     12:00,                   !- Time 4 {hh:mm}
     24,                      !- Value Until Time 4
     13:00,                   !- Time 5 {hh:mm}
-    24,        !- Value Until Time 5
+    24,                      !- Value Until Time 5
     22:00,                   !- Time 6 {hh:mm}
     24,                      !- Value Until Time 6
     24:00,                   !- Time 7 {hh:mm}
-    30;                    !- Value Until Time 7
+    30;                      !- Value Until Time 7
 
 Schedule:Day:Interval,
     OfficeMedium CLGSETP_SCH_YES_OPTIMUM Sat Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     05:00,                   !- Time 1 {hh:mm}
-    30,                    !- Value Until Time 1
+    30,                      !- Value Until Time 1
     06:00,                   !- Time 2 {hh:mm}
-    30,                    !- Value Until Time 2
+    30,                      !- Value Until Time 2
     07:00,                   !- Time 3 {hh:mm}
     24,                      !- Value Until Time 3
     12:00,                   !- Time 4 {hh:mm}
     24,                      !- Value Until Time 4
     13:00,                   !- Time 5 {hh:mm}
-    24,        !- Value Until Time 5
+    24,                      !- Value Until Time 5
     22:00,                   !- Time 6 {hh:mm}
     24,                      !- Value Until Time 6
     24:00,                   !- Time 7 {hh:mm}
-    30;                    !- Value Until Time 7
+    30;                      !- Value Until Time 7
 
 Schedule:Day:Interval,
     OfficeMedium CLGSETP_SCH_YES_OPTIMUM Summer Design Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     05:00,                   !- Time 1 {hh:mm}
-    30,                    !- Value Until Time 1
+    30,                      !- Value Until Time 1
     06:00,                   !- Time 2 {hh:mm}
-    30,                    !- Value Until Time 2
+    30,                      !- Value Until Time 2
     07:00,                   !- Time 3 {hh:mm}
     24,                      !- Value Until Time 3
     22:00,                   !- Time 4 {hh:mm}
     24,                      !- Value Until Time 4
     24:00,                   !- Time 5 {hh:mm}
-    30;                    !- Value Until Time 5
+    30;                      !- Value Until Time 5
 
 Schedule:Day:Interval,
     OfficeMedium CLGSETP_SCH_YES_OPTIMUM Winter Design Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     24:00,                   !- Time 1 {hh:mm}
-    30;                    !- Value Until Time 1
+    30;                      !- Value Until Time 1
 
 Schedule:Day:Interval,
     OfficeMedium HTGSETP_SCH_YES_OPTIMUM Default 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     12:00,                   !- Time 1 {hh:mm}
-    12,                    !- Value Until Time 1
+    12,                      !- Value Until Time 1
     13:00,                   !- Time 2 {hh:mm}
-    12,        !- Value Until Time 2
+    12,                      !- Value Until Time 2
     24:00,                   !- Time 3 {hh:mm}
-    12;                    !- Value Until Time 3
+    12;                      !- Value Until Time 3
 
 Schedule:Day:Interval,
     OfficeMedium HTGSETP_SCH_YES_OPTIMUM Wkdy Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     05:00,                   !- Time 1 {hh:mm}
-    12,                    !- Value Until Time 1
+    12,                      !- Value Until Time 1
     06:00,                   !- Time 2 {hh:mm}
-    12,                    !- Value Until Time 2
+    12,                      !- Value Until Time 2
     07:00,                   !- Time 3 {hh:mm}
     20,                      !- Value Until Time 3
     12:00,                   !- Time 4 {hh:mm}
@@ -1811,16 +1811,16 @@ Schedule:Day:Interval,
     22:00,                   !- Time 6 {hh:mm}
     20,                      !- Value Until Time 6
     24:00,                   !- Time 7 {hh:mm}
-    12;                    !- Value Until Time 7
+    12;                      !- Value Until Time 7
 
 Schedule:Day:Interval,
     OfficeMedium HTGSETP_SCH_YES_OPTIMUM Sat Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     05:00,                   !- Time 1 {hh:mm}
-    12,                    !- Value Until Time 1
+    12,                      !- Value Until Time 1
     06:00,                   !- Time 2 {hh:mm}
-    12,                    !- Value Until Time 2
+    12,                      !- Value Until Time 2
     07:00,                   !- Time 3 {hh:mm}
     20,                      !- Value Until Time 3
     12:00,                   !- Time 4 {hh:mm}
@@ -1830,30 +1830,29 @@ Schedule:Day:Interval,
     22:00,                   !- Time 6 {hh:mm}
     20,                      !- Value Until Time 6
     24:00,                   !- Time 7 {hh:mm}
-    12;                    !- Value Until Time 7
-
+    12;                      !- Value Until Time 7
 
 Schedule:Day:Interval,
     OfficeMedium HTGSETP_SCH_YES_OPTIMUM Summer Design Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     24:00,                   !- Time 1 {hh:mm}
-    12;                    !- Value Until Time 1
+    12;                      !- Value Until Time 1
 
 Schedule:Day:Interval,
     OfficeMedium HTGSETP_SCH_YES_OPTIMUM Winter Design Day 1,  !- Name
     Temperature,             !- Schedule Type Limits Name
     No,                      !- Interpolate to Timestep
     05:00,                   !- Time 1 {hh:mm}
-    12,                    !- Value Until Time 1
+    12,                      !- Value Until Time 1
     06:00,                   !- Time 2 {hh:mm}
-    12,                    !- Value Until Time 2
+    12,                      !- Value Until Time 2
     07:00,                   !- Time 3 {hh:mm}
-    20,                    !- Value Until Time 3
+    20,                      !- Value Until Time 3
     22:00,                   !- Time 4 {hh:mm}
     20,                      !- Value Until Time 4
     24:00,                   !- Time 5 {hh:mm}
-    12;                    !- Value Until Time 5
+    12;                      !- Value Until Time 5
 
 Schedule:Day:Interval,
     ActiveStorage_Mid_1 ZN VAV Terminal - MDP Default 1,  !- Name
@@ -8647,10 +8646,10 @@ BuildingSurface:Detailed,
     Wall,                    !- Surface Type
     Typical Insulated Steel Framed Exterior Wall R-8.06,  !- Construction Name
     MidFloor_Plenum ZN,      !- Zone Name
-    Adiabatic,                !- Outside Boundary Condition
+    Adiabatic,               !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
-    NoSun,              !- Sun Exposure
-    NoWind,             !- Wind Exposure
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
     ,                        !- View Factor to Ground
     4,                       !- Number of Vertices
     49.911000000000,         !- Vertex 1 X-coordinate {m}
@@ -8671,10 +8670,10 @@ BuildingSurface:Detailed,
     Wall,                    !- Surface Type
     Typical Insulated Steel Framed Exterior Wall R-8.06,  !- Construction Name
     MidFloor_Plenum ZN,      !- Zone Name
-    Adiabatic,                !- Outside Boundary Condition
+    Adiabatic,               !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
-    NoSun,              !- Sun Exposure
-    NoWind,             !- Wind Exposure
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
     ,                        !- View Factor to Ground
     4,                       !- Number of Vertices
     0.000000000000,          !- Vertex 1 X-coordinate {m}
@@ -8695,10 +8694,10 @@ BuildingSurface:Detailed,
     Wall,                    !- Surface Type
     Typical Insulated Steel Framed Exterior Wall R-8.06,  !- Construction Name
     MidFloor_Plenum ZN,      !- Zone Name
-    Adiabatic,                !- Outside Boundary Condition
+    Adiabatic,               !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
-    NoSun,              !- Sun Exposure
-    NoWind,             !- Wind Exposure
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
     ,                        !- View Factor to Ground
     4,                       !- Number of Vertices
     0.000000000000,          !- Vertex 1 X-coordinate {m}
@@ -8719,10 +8718,10 @@ BuildingSurface:Detailed,
     Wall,                    !- Surface Type
     Typical Insulated Steel Framed Exterior Wall R-8.06,  !- Construction Name
     MidFloor_Plenum ZN,      !- Zone Name
-    Adiabatic,                !- Outside Boundary Condition
+    Adiabatic,               !- Outside Boundary Condition
     ,                        !- Outside Boundary Condition Object
-    NoSun,              !- Sun Exposure
-    NoWind,             !- Wind Exposure
+    NoSun,                   !- Sun Exposure
+    NoWind,                  !- Wind Exposure
     ,                        !- View Factor to Ground
     4,                       !- Number of Vertices
     49.911000000000,         !- Vertex 1 X-coordinate {m}
@@ -11876,18 +11875,18 @@ ZoneHVAC:EquipmentConnections,
 Fan:VariableVolume,
     21 Zone PVAV Fan,        !- Name
     OfficeMedium HVACOperationSchd,  !- Availability Schedule Name
-    0.49,                  !- Fan Total Efficiency
-    1402,                     !- Pressure Rise {Pa}
+    0.49,                    !- Fan Total Efficiency
+    1402,                    !- Pressure Rise {Pa}
     AutoSize,                !- Maximum Flow Rate {m3/s}
     Fraction,                !- Fan Power Minimum Flow Rate Input Method
     0.25,                    !- Fan Power Minimum Flow Fraction
     0,                       !- Fan Power Minimum Air Flow Rate {m3/s}
-    1,                    !- Motor Efficiency
+    1,                       !- Motor Efficiency
     0,                       !- Motor In Airstream Fraction
-    -0.00364558,                 !- Fan Power Coefficient 1
-    0.38553447,                  !- Fan Power Coefficient 2
-    -0.6851734,                 !- Fan Power Coefficient 3
-    1.30328451,                  !- Fan Power Coefficient 4
+    -0.00364558,             !- Fan Power Coefficient 1
+    0.38553447,              !- Fan Power Coefficient 2
+    -0.6851734,              !- Fan Power Coefficient 3
+    1.30328451,              !- Fan Power Coefficient 4
     0,                       !- Fan Power Coefficient 5
     21 Zone PVAV Main Gas Htg Coil 130kBtu/hr 0.81 Thermal Eff Outlet Air Node,  !- Air Inlet Node Name
     21 Zone PVAV Supply Outlet Node,  !- Air Outlet Node Name
@@ -11912,7 +11911,7 @@ Coil:Cooling:DX:TwoSpeed,
     PSZ-AC_Unitary_PackagecoolEIRFFF,  !- Energy Input Ratio Function of Flow Fraction Curve Name
     PSZ-AC_Unitary_PackagecoolPLR,  !- Part Load Fraction Correlation Curve Name
     Autosize,                !- Low Speed Gross Rated Total Cooling Capacity {W}
-    Autosize,                    !- Low Speed Gross Rated Sensible Heat Ratio
+    Autosize,                !- Low Speed Gross Rated Sensible Heat Ratio
     3.39928881549157,        !- Low Speed Gross Rated Cooling COP {W/W}
     Autosize,                !- Low Speed Rated Air Flow Rate {m3/s}
     PSZ-AC_Unitary_PackagecoolCapFT,  !- Low Speed Total Cooling Capacity Function of Temperature Curve Name
@@ -11920,10 +11919,10 @@ Coil:Cooling:DX:TwoSpeed,
     ,                        !- Condenser Air Inlet Node Name
     AirCooled,               !- Condenser Type
     -25,                     !- Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}
-    1,                     !- High Speed Evaporative Condenser Effectiveness {dimensionless}
+    1,                       !- High Speed Evaporative Condenser Effectiveness {dimensionless}
     Autosize,                !- High Speed Evaporative Condenser Air Flow Rate {m3/s}
     Autosize,                !- High Speed Evaporative Condenser Pump Rated Power Consumption {W}
-    1,                     !- Low Speed Evaporative Condenser Effectiveness {dimensionless}
+    1,                       !- Low Speed Evaporative Condenser Effectiveness {dimensionless}
     Autosize,                !- Low Speed Evaporative Condenser Air Flow Rate {m3/s}
     Autosize,                !- Low Speed Evaporative Condenser Pump Rated Power Consumption {W}
     ,                        !- Supply Water Storage Tank Name
@@ -12141,8 +12140,8 @@ Controller:OutdoorAir,
     21 Zone PVAV Outdoor Air Node,  !- Actuator Node Name
     0,                       !- Minimum Outdoor Air Flow Rate {m3/s}
     Autosize,                !- Maximum Outdoor Air Flow Rate {m3/s}
-    DifferentialDryBulb,     !- Economizer Control Type
-    ModulateFlow,            !- Economizer Control Action Type
+    NoEconomizer,            !- Economizer Control Type
+    ,                        !- Economizer Control Action Type
     ,                        !- Economizer Maximum Limit Dry-Bulb Temperature {C}
     ,                        !- Economizer Maximum Limit Enthalpy {J/kg}
     ,                        !- Economizer Maximum Limit Dewpoint Temperature {C}
@@ -12665,24 +12664,24 @@ SetpointManager:MixedAir,
 
 Curve:Quadratic,
     PSZ-AC_Unitary_PackagecoolFFF,  !- Name
-    1,                     !- Coefficient1 Constant
-    0,                     !- Coefficient2 x
+    1,                       !- Coefficient1 Constant
+    0,                       !- Coefficient2 x
     0,                       !- Coefficient3 x**2
     0.5,                     !- Minimum Value of x
     1.5;                     !- Maximum Value of x
 
 Curve:Quadratic,
     PSZ-AC_Unitary_PackagecoolEIRFFF,  !- Name
-    1,                   !- Coefficient1 Constant
-    0,                 !- Coefficient2 x
-    0,                  !- Coefficient3 x**2
+    1,                       !- Coefficient1 Constant
+    0,                       !- Coefficient2 x
+    0,                       !- Coefficient3 x**2
     0.5,                     !- Minimum Value of x
     1.5;                     !- Maximum Value of x
 
 Curve:Quadratic,
     PSZ-AC_Unitary_PackagecoolPLR,  !- Name
-    1,                    !- Coefficient1 Constant
-    0,                    !- Coefficient2 x
+    1,                       !- Coefficient1 Constant
+    0,                       !- Coefficient2 x
     0,                       !- Coefficient3 x**2
     0,                       !- Minimum Value of x
     1;                       !- Maximum Value of x
@@ -12692,12 +12691,12 @@ Curve:Quadratic,
 
 Curve:Biquadratic,
     PSZ-AC_Unitary_PackagecoolCapFT,  !- Name
-    1,                !- Coefficient1 Constant
-    0,               !- Coefficient2 x
-    0,            !- Coefficient3 x**2
-    0,              !- Coefficient4 y
-    0,            !- Coefficient5 y**2
-    0,             !- Coefficient6 x*y
+    1,                       !- Coefficient1 Constant
+    0,                       !- Coefficient2 x
+    0,                       !- Coefficient3 x**2
+    0,                       !- Coefficient4 y
+    0,                       !- Coefficient5 y**2
+    0,                       !- Coefficient6 x*y
     12.77778,                !- Minimum Value of x
     23.88889,                !- Maximum Value of x
     21.11111,                !- Minimum Value of y
@@ -12705,12 +12704,12 @@ Curve:Biquadratic,
 
 Curve:Biquadratic,
     PSZ-AC DX Unitary Package EIRFT,  !- Name
-    1,                !- Coefficient1 Constant
-    0,               !- Coefficient2 x
-    0,            !- Coefficient3 x**2
-    0,              !- Coefficient4 y
-    0,             !- Coefficient5 y**2
-    0,            !- Coefficient6 x*y
+    1,                       !- Coefficient1 Constant
+    0,                       !- Coefficient2 x
+    0,                       !- Coefficient3 x**2
+    0,                       !- Coefficient4 y
+    0,                       !- Coefficient5 y**2
+    0,                       !- Coefficient6 x*y
     12.77778,                !- Minimum Value of x
     23.88889,                !- Maximum Value of x
     21.11111,                !- Minimum Value of y
@@ -12769,9 +12768,9 @@ Output:Variable,
     Timestep;                !- Reporting Frequency
 
 Output:Variable,
-    21 Zone PVAV Supply Inlet Node,                       !- Key Value
-    System Node Mass Flow Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
+    21 Zone PVAV Supply Inlet Node,  !- Key Value
+    System Node Mass Flow Rate,  !- Variable Name
+    Timestep;                !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
@@ -12779,80 +12778,79 @@ Output:Variable,
     Timestep;                !- Reporting Frequency
 
 Output:Variable,
-    ActiveStorage_Mid_1 ZN VAV Terminal,                       !- Key Value
-    Zone Air Terminal VAV Damper Position,    !- Variable Name
+    ActiveStorage_Mid_1 ZN VAV Terminal,  !- Key Value
+    Zone Air Terminal VAV Damper Position,  !- Variable Name
     Timestep;                !- Reporting Frequency
-	
-Output:Variable,
-    ActiveStorage_Mid_1 ZN VAV Terminal Damper Outlet,                       !- Key Value
-    System Node Temperature,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
-	
-Output:Variable,
-    ActiveStorage_Mid_1 ZN VAV Terminal Damper Outlet,                       !- Key Value
-    System Node Mass Flow Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
 
 Output:Variable,
-    ActiveStorage_Mid_1 ZN VAV Terminal Outlet Air Node,                       !- Key Value
-    System Node Temperature,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
-	
-Output:Variable,
-    ActiveStorage_Mid_1 ZN VAV Terminal Outlet Air Node,                       !- Key Value
-    System Node Mass Flow Rate,    !- Variable Name
+    ActiveStorage_Mid_1 ZN VAV Terminal Damper Outlet,  !- Key Value
+    System Node Temperature, !- Variable Name
     Timestep;                !- Reporting Frequency
-	
+
 Output:Variable,
-    ConfRoom_Mid_1 ZN VAV Terminal,                       !- Key Value
-    Zone Air Terminal VAV Damper Position,    !- Variable Name
+    ActiveStorage_Mid_1 ZN VAV Terminal Damper Outlet,  !- Key Value
+    System Node Mass Flow Rate,  !- Variable Name
     Timestep;                !- Reporting Frequency
-	
-Output:Variable,
-    ConfRoom_Mid_1 ZN VAV Terminal Damper Outlet,                       !- Key Value
-    System Node Temperature,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
-	
-Output:Variable,
-    ConfRoom_Mid_1 ZN VAV Terminal Damper Outlet,                       !- Key Value
-    System Node Mass Flow Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
 
 Output:Variable,
-    ConfRoom_Mid_1 ZN VAV Terminal Outlet Air Node,                       !- Key Value
-    System Node Temperature,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
-	
-Output:Variable,
-    ConfRoom_Mid_1 ZN VAV Terminal Outlet Air Node,                       !- Key Value
-    System Node Mass Flow Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
+    ActiveStorage_Mid_1 ZN VAV Terminal Outlet Air Node,  !- Key Value
+    System Node Temperature, !- Variable Name
+    Timestep;                !- Reporting Frequency
 
 Output:Variable,
-    ACTIVESTORAGE_MID_1 ZN ELECTRIC REHEAT COIL,                       !- Key Value
-    Heating Coil Heating Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
+    ActiveStorage_Mid_1 ZN VAV Terminal Outlet Air Node,  !- Key Value
+    System Node Mass Flow Rate,  !- Variable Name
+    Timestep;                !- Reporting Frequency
 
 Output:Variable,
-    CONFROOM_MID_1 ZN ELECTRIC REHEAT COIL,                       !- Key Value
-    Heating Coil Heating Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
+    ConfRoom_Mid_1 ZN VAV Terminal,  !- Key Value
+    Zone Air Terminal VAV Damper Position,  !- Variable Name
+    Timestep;                !- Reporting Frequency
 
 Output:Variable,
-    21 Zone PVAV Mixed Air Node,                       !- Key Value
-    System Node Temperature,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
-	
-Output:Variable,
-    21 Zone PVAV Mixed Air Node,                       !- Key Value
-    System Node Mass Flow Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
+    ConfRoom_Mid_1 ZN VAV Terminal Damper Outlet,  !- Key Value
+    System Node Temperature, !- Variable Name
+    Timestep;                !- Reporting Frequency
 
 Output:Variable,
-    21 Zone PVAV Fan,                       !- Key Value
+    ConfRoom_Mid_1 ZN VAV Terminal Damper Outlet,  !- Key Value
+    System Node Mass Flow Rate,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    ConfRoom_Mid_1 ZN VAV Terminal Outlet Air Node,  !- Key Value
+    System Node Temperature, !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    ConfRoom_Mid_1 ZN VAV Terminal Outlet Air Node,  !- Key Value
+    System Node Mass Flow Rate,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    ACTIVESTORAGE_MID_1 ZN ELECTRIC REHEAT COIL,  !- Key Value
+    Heating Coil Heating Rate,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    CONFROOM_MID_1 ZN ELECTRIC REHEAT COIL,  !- Key Value
+    Heating Coil Heating Rate,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    21 Zone PVAV Mixed Air Node,  !- Key Value
+    System Node Temperature, !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    21 Zone PVAV Mixed Air Node,  !- Key Value
+    System Node Mass Flow Rate,  !- Variable Name
+    Timestep;                !- Reporting Frequency
+
+Output:Variable,
+    21 Zone PVAV Fan,        !- Key Value
     Fan Electricity Rate,    !- Variable Name
-    Timestep;                !- Reporting Frequency	
-
+    Timestep;                !- Reporting Frequency
 
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTPUT:SQLITE ===========

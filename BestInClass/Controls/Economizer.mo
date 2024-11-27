@@ -7,7 +7,8 @@ block Economizer "Controller for economizer"
     "Temperture offset to activate economizer";
   parameter Modelica.SIunits.VolumeFlowRate VOut_flow_min(min=0)
     "Minimum outside air volume flow rate";
-
+  parameter Boolean useEco = false
+    "Use economizer or not";
   Modelica.Blocks.Interfaces.RealInput TSupHeaSet
     "Supply temperature setpoint for heating" annotation (Placement(
         transformation(extent={{-140,-40},{-100,0}}), iconTransformation(extent=
@@ -56,7 +57,7 @@ block Economizer "Controller for economizer"
   MixedAirTemperatureSetpoint TSetMix "Mixed air temperature setpoint"
     annotation (Placement(transformation(extent={{-20,64},{0,84}})));
   Buildings.Examples.VAVReheat.Controls.EconomizerTemperatureControl
-                               yOATMix(Ti=Ti, k=k)
+                               yOATMix(Ti=Ti, k=k) if useEco
     "Control signal for outdoor damper to track mixed air temperature setpoint"
     annotation (Placement(transformation(extent={{20,160},{40,180}})));
   Buildings.Controls.Continuous.LimPID yOATFre(
@@ -83,6 +84,9 @@ block Economizer "Controller for economizer"
     "Invert control signal for interlocked damper"
     annotation (Placement(transformation(extent={{170,-10},{190,10}})));
 equation
+  if not useEco then
+    max.u1 = 0;
+  end if;
   connect(VOut_flow, gain.u) annotation (Line(
       points={{-120,40},{-92,40},{-92,-50},{-62,-50}},
       color={0,0,127},
