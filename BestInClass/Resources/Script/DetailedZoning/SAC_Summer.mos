@@ -1,12 +1,12 @@
 ﻿Advanced.CompileWith64 = 2;
 simulateModel(
-  "BestInClass.DetailedZoning.BICBase_Sacra",
+  "BestInClass.DetailedZoning.BaseModel",
   startTime=16329600,
   stopTime=17539200,
   numberOfIntervals=0,
   outputInterval=600,
   method="Cvode",
-  resultFile="BICBase_Sacra");  
+  resultFile="BaseModel");  
 
 createPlot(id=1, position={10, 21, 600, 424}, y={"Building.TRooCooSet", "Building.TRooHeaSet", "Building.zoneVAV2.zon.TAir", 
 "Building.zoneVAV3.zon.TAir", "Building.zoneVAV4.zon.TAir", "Building.zoneVAV5.zon.TAir",

@@ -1,4 +1,4 @@
-within BestInClass.DetailedZoning;
+within BestInClass.DetailedZoning.Backup;
 model BICBase_LA
   extends Modelica.Icons.Example;
   extends BaseClasses.PartialOpenLoop(par(minAirFra=0.3), occupancy(period(

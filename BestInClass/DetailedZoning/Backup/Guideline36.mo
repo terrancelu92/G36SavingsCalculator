@@ -1,6 +1,5 @@
-within BestInClass.DetailedZoning;
-model Guideline36
-  "Guideline 36 controller for detailed zoning building model"
+within BestInClass.DetailedZoning.Backup;
+model Guideline36 "Guideline 36 controller for detailed zoning building model"
   extends Modelica.Icons.Example;
 
   parameter Real yFanMin = 0.1

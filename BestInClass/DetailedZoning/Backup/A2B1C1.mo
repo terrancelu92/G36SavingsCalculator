@@ -1,4 +1,4 @@
-within BestInClass.DetailedZoning;
+within BestInClass.DetailedZoning.Backup;
 model A2B1C1
   extends Modelica.Icons.Example;
   extends BaseClasses.PartialOpenLoop(par(
